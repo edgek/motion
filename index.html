@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="motion.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <style>
+        body {font-family: sans-serif; font-size: 75%;}
+        input {width: 20px;}
+    </style>
+</head>
+<body>
+    <form>
+        <button type="button" id="button-start">Start</button>
+        <button type="button" id="button-stop">Stop</button>
+        <br>
+        <label for="px">X:</label>
+        <input type="text" id="px" value="25"></input>
+        <label for="py">Y:</label>
+        <input type="text" id="py" value="25"></input>
+        <label for="vx">Vel-X:</label>
+        <input type="text" id="vx" value="20"></input>
+        <label for="vy">Vel-Y:</label>
+        <input type="text" id="vy" value="10"></input>
+        <label for="mass">Mass:</label>
+        <input type="text" id="mass" value="20"></input>
+        <label for="r">Radius:</label>
+        <input type="text" id="r" value="25"></input>
+        <label for="fill">Fill: </label>
+        <select name="select" id="fill">
+            <option value="Blue">Blue</option>
+            <option value="Red">Red</option>
+            <option value="Black">Black</option>
+            <option value="Green">Green</option>
+            <option value="Yellow">Yellow</option>
+        </select>
+        <button type="button" id="button-add">Add</button>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
